@@ -3,3 +3,12 @@ deployment.apps "development" created
 NAME                          READY   STATUS    RESTARTS   AGE
 development-7c54486b8-vnrf6   1/1     Running   0          3m11s
 service "development" exposed
+
+(.devops) C:\Users\manasamithra\Desktop\Udaity_project_5\DevOps_Microservices\project-ml-microservice-kubernetes>make_prediction.sh
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
