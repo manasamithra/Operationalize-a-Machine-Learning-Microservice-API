@@ -1,0 +1,5 @@
+(.devops) C:\Users\manasamithra\Desktop\Udaity_project_5\DevOps_Microservices\project-ml-microservice-kubernetes>run_kubernetes.sh
+deployment.apps "development" created
+NAME                          READY   STATUS              RESTARTS   AGE
+development-7c54486b8-vnrf6   0/1     ContainerCreating   0          24s
+service "development" exposed
