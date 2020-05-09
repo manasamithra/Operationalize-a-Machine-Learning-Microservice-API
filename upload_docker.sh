@@ -9,6 +9,7 @@ dockerpath=dockerwebtraining/development
 
 # Step 2:  
 # Authenticate & tag
+docker login --username dockerwebtraining --password-stdin
 echo "Docker ID and Image: $dockerpath"
 docker tag 16e4d4897c83 $dockerpath
 
